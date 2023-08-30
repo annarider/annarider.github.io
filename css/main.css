@@ -1,4 +1,4 @@
-/* GLOBAL STYLES */
+ /* GLOBAL STYLES */
 html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
@@ -40,12 +40,12 @@ a {
   text-align: center;
   width: 10vh;
 }
-.header-logo img {
-  width: 4.3vh;
-}
 .header-logo:hover,
 .header-logo:active {
   background-color: #ed6e2f;
+}
+.header-logo img {
+  width: 4.3vh;
 }
 .header-nav {
   float: right;
@@ -76,7 +76,7 @@ a {
   color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-  color: #fff
+  color: #fff;
 }
 
 /* FOOTER STYLES */
@@ -103,11 +103,24 @@ a {
 .footer-nav a {
   color: #ccc;
 }
+.footer-social {
+  margin-top: 20px;
+}
 
 /* HERO STYLES */
 .full-hero {
   background-color: #a2edfa;
-  height: 50vh;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
+}
+.hero-social {
+  margin-top: 50px;
 }
 
 /* SOCIAL STYLES */
