@@ -177,13 +177,56 @@ h2 ~ p {
   color: #333;
 }
 /* HIDE IN THE FOOTER */
-.footer .dropdown:hover .drop-menu,
+/*.footer .dropdown:hover .drop-menu,
 .footer .drop-trigger:after {
   display: none;
 }
 .footer .drop-trigger {
   padding-right: 0;
 }
+*/
+.footer .dropdown {
+  border: 1px solid blue;
+/*  width: 100%;*/
+}
+.footer .drop-menu {
+  background-color: #fff;
+  border: 1px solid red;
+  color: #333;
+  padding: 0 0 0.5em;
+  left: 0;
+  top: -13.3em;
+}
+.footer .drop-menu:before {
+  border-color: #fff transparent transparent;
+  top: 12em;
+}
+.footer .dropdown:hover .drop-trigger:after {
+  border-color: transparent transparent #ed6e2f;
+}
+.footer .drop-menu a {
+  background-color: #fff;
+  color: #333;
+  white-space: nowrap;
+  padding: 0.5em 2em 0.5em 1em;
+  text-transform: none;
+  white-space: nowrap;
+}
+.footer .drop-trigger:after {
+  border-color: transparent transparent #fff;
+}
+.footer .drop-menu {
+  display: inline-block;
+}
+.footer .drop-menu li:first-child {
+  padding: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+.footer-nav .drop-menu li {
+  display: block;
+}
+
 /* FOOTER STYLES */
 .footer {
   background-color: #000;
