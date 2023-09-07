@@ -587,8 +587,7 @@ h2 ~ p {
     background-color: #444;
     box-sizing: border-box;
     left: 0;
-    height: 0;
-/*    max-height: 0;*/
+    max-height: 0;
     overflow: hidden;
     padding: 0;
     position: absolute;
@@ -622,7 +621,6 @@ h2 ~ p {
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
-    height: 90vh;
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: #000;
